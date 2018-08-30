@@ -1,0 +1,35 @@
+//ARM "Ragnorok" Gauss Tank
+
+[ARMRAG_GAUSS]
+	{
+	ID=241;
+	name=Ragnorok-Gauss;
+	rendertype=4;
+	lineofsight=1;
+	turret=1;
+	minbarrelangle=-15;
+
+	range=286;
+	reloadtime=1.7;
+	weaponvelocity=475;
+	areaofeffect=10;
+	soundstart=RagnorokGauss1;
+	soundhit=RagnorokGauss2;
+
+	explosiongaf=fx;
+	explosionart=explode5;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2oboom1;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplashsm;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=145;
+		}
+	}
+

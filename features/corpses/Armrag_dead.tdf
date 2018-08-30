@@ -1,0 +1,20 @@
+//ARM "Ragnorok" Gauss Tank
+
+[armrag_dead]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=arm_corpses;
+	object=armrag_dead;
+	footprintx=3;
+	footprintz=3;
+	height=24;
+	blocking=1;
+	hitdensity=100;
+	metal=468;
+	damage=1845;
+	reclaimable=1;
+	featurereclamate=smudge01;
+	seqnamereclamate=tree1reclamate;
+	}
+

@@ -1,0 +1,9 @@
+//Core "Ketzer" Heavy Battle Mech by M. Hüdepohl
+
+[MENUENTRY1]
+	{
+	UNITMENU=CORGANT;
+	MENU=2;
+	BUTTON=1;
+	UNITNAME=CORKETZ;
+	}

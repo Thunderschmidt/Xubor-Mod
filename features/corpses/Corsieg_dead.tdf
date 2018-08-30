@@ -1,0 +1,41 @@
+// Core "Siegfried" EMG-resistant combat-tank
+
+[corsieg_dead]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=core_corpses;
+	object=corsieg_dead;
+	featuredead=corsieg_heap;
+	footprintx=2;
+	footprintz=2;
+	height=40;
+	blocking=1;
+	hitdensity=600;
+	metal=245;
+	damage=992;
+	reclaimable=1;
+	featurereclamate=smudge01;
+        seqnamereclamate=tree1reclamate;
+	}
+
+[corsieg_heap]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=heaps;
+	object=2x2b;
+	footprintx=2;
+	footprintz=2;
+	height=4;
+	blocking=0;
+	hitdensity=400;
+	metal=122;
+	damage=992;
+	reclaimable=1;
+	featurereclamate=smudge01;
+	seqnamereclamate=tree1reclamate;
+	}
+
+
+

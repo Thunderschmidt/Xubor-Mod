@@ -1,0 +1,46 @@
+//Arm "Eddy" Lvl.1 Assasination Kbot by Xubor
+
+[ARMEDDY_ROCKET]
+	{
+	ID=19; // Original ID was 206 - Edited on 20.01.2005 20:09:20 using TA Conflict Crusher - http://www.r1ch.net/tacc/
+	name=Rocket;
+	rendertype=1;
+	lineofsight=1;
+	vlaunch=1;
+	model=eddyrocket;
+	range=800;
+	reloadtime=12;
+	weapontimer=1;
+	flighttime=8;
+	commandfire=1;
+	endsmoke=0;
+	energypershot=0;
+	shakeduration=1;
+	tracks=0;
+	startvelocity=100;
+	weaponvelocity=750;
+	weaponacceleration=53;
+	turnrate=28000;
+	areaofeffect=85;
+	metalpershot=0;
+	soundstart=eddystart;
+	soundhit=xplomas1;
+	firestarter=100;
+	smokedelay=.075;
+	selfprop=1;
+	smoketrail=1;
+	twophase=1;
+	guidance=1;
+	tolerance=4000;
+	explosiongaf=LavaRockB;
+	explosionart=rockboom01;
+	waterexplosiongaf=fx;
+	waterexplosionart=h2oboom2;
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplashlg;
+	startsmoke=1;
+	[DAMAGE]
+		{
+		default=850;
+		}
+	}

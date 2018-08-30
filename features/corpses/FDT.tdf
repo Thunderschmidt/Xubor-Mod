@@ -1,0 +1,21 @@
+// Arm "Blockbuster" Flying Dragon's Tooth
+
+[FDT]
+{
+	world=allworld;
+	description=DragonsTeeth;
+	category=dragonteeth;
+	object=FDT;
+	footprintx=2;
+	footprintz=2;
+	height=20;
+	blocking=1;
+	hitdensity=100;
+	metal=8;
+	damage=3500;
+	reclaimable=1;
+	autoreclaimable=0;
+	featurereclamate=smudge01;
+	featuredead=RockTeeth;
+	seqnamereclamate=tree1reclamate;
+}

@@ -1,0 +1,39 @@
+//Arm "Eddy" Lvl.1 Assasination Kbot by Xubor
+
+[ArmEddy_dead]
+	{
+	World=All Worlds;
+	Description=Wreckage;
+	Category=arm_corpses;
+	Object=ArmEddy_dead;
+	FeatureDead=ArmEddy_heap;
+	FootPrintx=2;
+	FootPrintz=2;
+	Height=20;
+	Blocking=1;
+	HitDensity=100;
+	Metal=96;
+	Damage=440;
+	Reclaimable=1;
+	FeatureReclamate=smudge01;
+	SeqNameReclamate=tree1reclamate;
+	}
+
+[ArmEddy_heap]
+	{
+	World=All Worlds;
+	Description=Wreckage;
+	Category=heaps;
+	Object=2x2a;
+	FootPrintx=2;
+	FootPrintz=2;
+	Height=4;
+	Blocking=0;
+	HitDensity=105;
+	Metal=48;
+	Damage=440;
+	Reclaimable=1;
+	FeatureReclamate=smudge01;
+	SeqNameReclamate=tree1reclamate;
+	}
+

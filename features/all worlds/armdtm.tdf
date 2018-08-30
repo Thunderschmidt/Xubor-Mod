@@ -1,0 +1,22 @@
+// Arm Drago's Tooth Mine by M.Hüdepohl
+
+[DTM]
+	{
+	world=allworld;
+	description=Dragon's Tooth;
+	category=dragonteeth;
+	object=dtm;
+	footprintx=1;
+	footprintz=1;
+	height=20;
+	blocking=1;
+	hitdensity=600;
+	metal=7;
+	damage=3500;
+	reclaimable=1;
+	autoreclaimable=0;
+	featurereclamate=smudge01;
+	featuredead=smudge01;
+	seqnamereclamate=tree1reclamate;
+	}
+

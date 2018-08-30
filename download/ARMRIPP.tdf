@@ -1,0 +1,9 @@
+//ARM "Ripper" AA Ship
+
+[MENUENTRY1]
+	{
+	UNITMENU=ARMSY;
+	MENU=3;
+	BUTTON=0;
+	UNITNAME=ARMRIPP;
+	}

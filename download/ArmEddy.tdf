@@ -1,0 +1,9 @@
+//Arm "Eddy" Lvl.1 Assasination Kbot by Xubor
+
+[MENUENTRY1]
+	{
+	UNITMENU=ARMLAB;
+	MENU=3;
+	BUTTON=2;
+	UNITNAME=ArmEddy;
+	}

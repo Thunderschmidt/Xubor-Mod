@@ -1,0 +1,10 @@
+//Arm "Thornado" Bomber Seaplane by Xubor
+
+[MENUENTRY1]
+	{
+	UNITMENU=ARMPLAT;
+	MENU=3;
+	BUTTON=0;
+	UNITNAME=ArmThorn;
+	}
+

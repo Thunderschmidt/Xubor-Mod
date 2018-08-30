@@ -1,0 +1,37 @@
+//CORE "Igniter" Pyro Tank By Wettis
+
+[CORIGN_FLAME]
+	{
+	ID=240;
+	name=Igniter-Flame;
+	rendertype=5;
+	lineofsight=1;
+	turret=1;
+
+	range=250;
+	reloadtime=2.5;
+	weapontimer=1;
+	weaponvelocity=210;
+	areaofeffect=27;
+	
+	burst=32;
+	burstrate=.05;
+	sprayangle=4200;
+	randomdecay=.4;
+	
+	soundstart=IgniterFlame1;
+//	soundhit=IgniterFlame2;
+	
+	firestarter=100;
+	tolerance=367;
+	groundbounce=1;
+	startsmoke=1;
+	endsmoke=1;
+	
+	[DAMAGE]
+		{
+		default=13;
+		armcom=2;
+		corcom=2;
+		}
+}

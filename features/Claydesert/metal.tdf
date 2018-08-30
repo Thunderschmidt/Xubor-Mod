@@ -1,0 +1,125 @@
+[ClayMetal1]  // Tiny
+	{
+	world=claydesert;
+	description=Metal;
+	category=metal;
+	animating=0;
+	footprintx=3;
+	footprintz=3;
+	height=0;
+	filename=claymetal;
+	seqname=claymetal01;
+	seqnameshad=;
+
+	animtrans=0;
+	shadtrans=1;
+	hitdensity=5;
+	metal=73;
+	damage=32009;
+	indestructible=1;
+	}
+
+[ClayMetal2]  // Small
+	{
+	world=claydesert;
+	description=Metal;
+	category=metal;
+	animating=0;
+	footprintx=3;
+	footprintz=3;
+	height=0;
+	filename=claymetal;
+	seqname=claymetal02;
+	seqnameshad=;
+
+	animtrans=0;
+	shadtrans=1;
+	hitdensity=5;
+	metal=115;
+	damage=32009;
+	indestructible=1;
+	}
+
+[ClayMetal3]  // Small
+	{
+	world=claydesert;
+	description=Metal;
+	category=metal;
+	animating=0;
+	footprintx=3;
+	footprintz=3;
+	height=0;
+	filename=claymetal;
+	seqname=claymetal03;
+	seqnameshad=;
+
+	animtrans=0;
+	shadtrans=1;
+	hitdensity=5;
+	metal=156;
+	damage=32009;
+	indestructible=1;
+	}
+
+[ClayMetal4]  // Medium
+	{
+	world=claydesert;
+	description=Metal;
+	category=metal;
+	animating=0;
+	footprintx=3;
+	footprintz=3;
+	height=0;
+	filename=claymetal;
+	seqname=claymetal04;
+	seqnameshad=;
+
+	animtrans=0;
+	shadtrans=1;
+	hitdensity=5;
+	metal=183;
+	damage=32009;
+	indestructible=1;
+	}
+
+[ClayMetal5]  // Medium
+	{
+	world=claydesert;
+	description=Metal;
+	category=metal;
+	animating=0;
+	footprintx=3;
+	footprintz=3;
+	height=0;
+	filename=claymetal;
+	seqname=claymetal05;
+	seqnameshad=;
+
+	animtrans=0;
+	shadtrans=1;
+	hitdensity=5;
+	metal=215;
+	damage=32009;
+	indestructible=1;
+	}
+
+[ClayMetal6]  // Large
+	{
+	world=claydesert;
+	description=Metal;
+	category=metal;
+	animating=0;
+	footprintx=3;
+	footprintz=3;
+	height=0;
+	filename=claymetal;
+	seqname=claymetal06;
+	seqnameshad=;
+
+	animtrans=0;
+	shadtrans=1;
+	hitdensity=5;
+	metal=233;
+	damage=32009;
+	indestructible=1;
+	}

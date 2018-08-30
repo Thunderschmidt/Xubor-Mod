@@ -1,0 +1,89 @@
+//Core "Ketzer" Heavy Battle Mech by M. H¸depohl
+
+[KETZER-GAUﬂ]
+	{
+	ID=8; // Original ID was 207 - Edited on 20.01.2005 20:08:23 using TA Conflict Crusher - http://www.r1ch.net/tacc/
+	name=Ketzer Gauss Canon;
+	rendertype=3;
+	lineofsight=1;
+	turret=1;
+
+	model=Ketzer-Gauﬂ;
+
+	range=400;
+	reloadtime=0.4;
+	weapontimer=4;
+	energypershot=200;
+	weaponvelocity=500;
+	areaofeffect=15;
+	tolerance=1500;
+	soundstart=Ketzer-Gauﬂ1;
+	soundhit=Ketzer-Gauﬂ2;
+	
+	firestarter=20;
+	beamweapon=1;
+
+	
+	explosiongaf=fx;
+	explosionart=explode5;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=190;
+		}
+	}
+ [KETZER-RAKETE]
+	{
+	ID=7; // Original ID was 208 - Edited on 20.01.2005 20:07:56 using TA Conflict Crusher - http://www.r1ch.net/tacc/
+	name=Ketzer-Rockets;
+	rendertype=1;
+	ballistic=1;
+	turret=1;
+
+	model=Ketzer-Rakete;
+
+	range=750;
+	reloadtime=0.9;
+	weapontimer=5;
+	weaponvelocity=850;
+	startvelocity=500;
+	weaponacceleration=121;
+	turnrate=25000;
+	areaofeffect=48;
+	metalpershot=20;
+
+	soundstart=Ketzer-Rakete1;
+	soundhit=Ketzer-Rakete2;
+
+	firestarter=100;
+	smokedelay=.08;
+	guidance=1;
+	tracks=1;
+	selfprop=1;
+	smoketrail=1;
+	tolerance=8000;
+
+	explosiongaf=fx;
+	explosionart=explode3;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=90;
+		}
+	}

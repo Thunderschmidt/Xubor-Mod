@@ -1,0 +1,19 @@
+[coradrag]
+	{
+	world=allworld;
+	description=DragonsTeeth;
+	category=dragonteeth;
+	object=coradrag;
+	footprintx=2;
+	footprintz=2;
+	height=20;
+	blocking=1;
+	hitdensity=800;
+	metal=0;
+	damage=4500;
+	reclaimable=0;
+	autoreclaimable=0;
+	featurereclamate=smudge01;
+	featuredead=RockTeeth;
+	seqnamereclamate=tree1reclamate;
+	}

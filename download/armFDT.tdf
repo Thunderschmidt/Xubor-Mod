@@ -1,0 +1,10 @@
+// Arm "Blockbuster" Flying Dragon's Tooth
+
+[MENUENTRY1]
+	{
+	UNITMENU=ARMAP;
+                    MENU=2;
+                    BUTTON=5;
+	UNITNAME=ARMFDT;
+	}
+

@@ -1,0 +1,11 @@
+//Arm "Radeon" Resurrection Vehicle by Warlord_285 & Xubor
+
+[MENUENTRY1]
+	{
+	UNITMENU=ARMAVP;
+	MENU=4;
+	BUTTON=1;
+	UNITNAME=ARMRADE;
+	}
+
+

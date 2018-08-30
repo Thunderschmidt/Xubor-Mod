@@ -1,0 +1,9 @@
+// Arm Drago's Tooth Mine by M.Hüdepohl
+
+[MENUENTRY1]
+	{
+	UNITNAME=ARMDTM;
+	MENU=3;
+	BUTTON=0;
+	UNITMENU=ARMMLV;
+	}

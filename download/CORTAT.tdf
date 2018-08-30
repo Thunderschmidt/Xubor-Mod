@@ -1,0 +1,11 @@
+//CORE "Tattletale" Sonar Sub
+
+[MENUENTRY1]
+	{
+	UNITMENU=CORASY;
+	MENU=3;
+	BUTTON=3;
+	UNITNAME=CORTAT;
+	}
+
+

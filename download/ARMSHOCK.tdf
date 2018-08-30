@@ -1,0 +1,7 @@
+[menuentry1]
+	{
+	unitmenu=ARMSLAB;
+	menu=2;
+	button=2;
+	unitname=ARMSHOCK;
+	}

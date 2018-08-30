@@ -1,0 +1,9 @@
+// Arm "Razorback" Heavy Siege Mech (special edition)
+
+[MENUENTRY1]
+	{
+	UNITMENU=ARMSLAB;
+	MENU=2;
+	BUTTON=1;
+	UNITNAME=ARMRAZ;
+	}

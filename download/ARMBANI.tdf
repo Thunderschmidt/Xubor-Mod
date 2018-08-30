@@ -1,0 +1,9 @@
+// Arm "Banisher" Adv. Gunship
+[MENUENTRY1]
+	{
+	UNITMENU=ARMAAP;
+	MENU=3;
+	BUTTON=3;
+	UNITNAME=ARMBANI;
+	}
+

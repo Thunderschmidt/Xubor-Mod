@@ -1,0 +1,40 @@
+//ARM "Fortification Gate" Fortification Gate V/H
+
+[armfortgh_dead]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=arm_corpses;
+	object=armfortgh_dead;
+	footprintx=10;
+	footprintz=2;
+	height=20;
+	blocking=1;
+	hitdensity=100;
+	metal=207;
+	damage=780;
+	reclaimable=1;
+	featurereclamate=smudge01;
+        seqnamereclamate=tree1reclamate;
+	}
+
+[armfortgv_dead]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=arm_corpses;
+	object=armfortgv_dead;
+	footprintx=2;
+	footprintz=10;
+	height=20;
+	blocking=1;
+	hitdensity=100;
+	metal=207;
+	damage=780;
+	reclaimable=1;
+	featurereclamate=smudge01;
+        seqnamereclamate=tree1reclamate;
+	}
+
+
+

@@ -1,0 +1,9 @@
+// Arm "Laserboy" Shielded Defence Kbot
+
+[MENUENTRY1]
+	{
+	UNITMENU=ARMALAB;
+	MENU=3;
+	BUTTON=3;
+	UNITNAME=ARMLAS;
+	}

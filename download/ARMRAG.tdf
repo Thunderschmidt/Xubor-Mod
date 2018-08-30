@@ -1,0 +1,9 @@
+//ARM "Ragnorok" Gauss Tank
+
+[MENUENTRY1]
+	{
+	UNITMENU=ARMAVP;
+	MENU=4;
+	BUTTON=0;
+	UNITNAME=ARMRAG;
+	}

@@ -1,0 +1,81 @@
+//CORE "Stalker" Sniper Kbot By Wettis - (model) and Reaver - (idea and fbi)
+
+[CORSTALK_FUSIONSNIPER]
+	{
+	ID=251;
+	name=Anti-Defensive-Gun;
+	rendertype=0;
+	lineofsight=1;
+	turret=1;
+	beamweapon=1;
+	weapontimer=1;
+	range=800;
+	reloadtime=5;
+	energypershot=850;
+	weaponvelocity=1000;
+	areaofeffect=25;
+	minbarrelangle=-15;
+	soundstart=StalkerFusionSniper1;
+	soundhit=StalkerFusionSniper2;
+	beamweapon=1;
+	color=130;	
+	color2=255;
+	firestarter=0;
+	
+	explosiongaf=fx;
+	explosionart=explode5;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2oboom1;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplashsm;
+
+	[DAMAGE]
+		{
+		default=140;
+		ARMHLT=10000;		//killed with one shot
+		CORHLT=10000;
+		
+		ARMLLT=10000;
+		CORLLT=10000;
+
+		CORRL=10000;
+		ARMRL=10000;
+
+		ARMTL=10000;
+		CORTL=10000;	
+		
+		ARMFRT=10000;
+		CORFRT=10000;
+
+		ARMFHLT=10000;
+		CORFHLT=10000;
+
+		ARMGUARD=10000;  	
+		CORPUN=10000;           
+
+		CORATL=10000;
+		ARMATL=10000;
+		
+		CORVIPE=1200;  		//killed with one or seven shots
+
+		ARMBRTHA=1200;	//killed with two shots
+		CORINT=1200;
+		CORFLAK=900;
+		ARMFLAK=900;
+
+
+		ARMANNI=1100;	//killed with two or  three shots
+		CORDOOM=3200;
+
+		ARMAMB=2200; 	//killed with two or more shots
+		CORTOAST=2200;	//killed with two or more shots
+
+		ARMVULC=600; 		//killed with three shots
+		CORBUZZ=600;
+
+		CORDORA=800;
+
+		}
+	}

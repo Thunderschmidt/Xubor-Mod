@@ -1,0 +1,9 @@
+//CORE "Falcon" Adv. Air Transport
+
+[MENUENTRY1]
+	{
+	UNITMENU=CORAAP;
+	MENU=3;
+	BUTTON=1;
+	UNITNAME=CORFALC;
+	}

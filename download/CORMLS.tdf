@@ -1,0 +1,11 @@
+//CORE "Limiter" Mine Laying Ship
+
+[MENUENTRY1]
+	{
+	UNITMENU=CORSY;
+	MENU=2;
+	BUTTON=5;
+	UNITNAME=CORMLS;
+	}
+
+

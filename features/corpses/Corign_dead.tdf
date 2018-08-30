@@ -1,0 +1,39 @@
+[corign_dead]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=core_corpses;
+	object=corign_dead;
+	featuredead=corign_heap;
+	footprintx=2;
+	footprintz=2;
+	height=40;
+	blocking=1;
+	hitdensity=600;
+	metal=275;
+	damage=338;
+	reclaimable=1;
+	featurereclamate=smudge01;
+        seqnamereclamate=tree1reclamate;
+	}
+
+[corign_heap]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=heaps;
+	object=1x1a;
+	footprintx=2;
+	footprintz=2;
+	height=4;
+	blocking=0;
+	hitdensity=400;
+	metal=325;
+	damage=260;
+	reclaimable=1;
+	featurereclamate=smudge01;
+	seqnamereclamate=tree1reclamate;
+	}
+
+
+

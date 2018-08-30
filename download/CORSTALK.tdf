@@ -1,0 +1,9 @@
+//CORE "Stalker" Sniper Kbot By Wettis - (model) and Reaver - (idea and fbi)
+
+[MENUENTRY1]
+	{
+	UNITMENU=CORALAB;
+	MENU=4;
+	BUTTON=5;
+	UNITNAME=CORSTALK;
+	}

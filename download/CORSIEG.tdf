@@ -1,0 +1,9 @@
+//Core "Siegfried" EMG-resistant combat-tank
+
+[MENUENTRY1]
+	{
+	UNITMENU=CORAVP;
+	MENU=3;
+	BUTTON=5;
+	UNITNAME=CORSIEG;
+	}

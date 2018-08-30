@@ -1,0 +1,88 @@
+//Arm "Thornado" Bomber Seaplane by Xubor
+
+[UNITINFO]
+	{
+	UnitName=ArmThorn;
+	Designation=ARM-ASV;
+	UnitNumber=031090;
+	Side=ARM;
+
+	Name=Thornado;
+	Description=throws waterbombs;
+	GermanName=Thornado;
+	GermanDescription=wirft Wasserbomben;
+	FrenchName=Thornado;
+	Frenchdescription=throws waterbombs;
+
+	Version=1;
+
+	Objectname=ArmThorn;
+
+	FootprintX=3;
+	FootprintZ=3;
+	Upright=1;
+	MoveRate1=8;
+
+	BuildCostEnergy=9500;
+	BuildCostMetal=550;
+	BuildTime=19500;
+	EnergyMake=4;
+
+	MaxDamage=620;
+	MaxWaterDepth=0;
+	MaxSlope=10;
+	EnergyUse=6;
+
+	MaxVelocity=9.5;
+	BrakeRate=4.5;
+	Acceleration=0.1;
+	TurnRate=340;
+	cruisealt=190;
+	maneuverleashlength=640;
+	SteeringMode=1;
+
+	SightDistance=350;
+
+	SoundCategory=ARM_VTOL;
+
+	ExplodeAs=BIG_UNITEX;
+	SelfDestructAs=BIG_UNIT;
+
+	Category=ARM VTOL CTRL_V LEVEL2 WEAPON  NOTSUB BOMB CRTL_W CRTL_P ;
+	TEDClass=VTOL;
+	BadTargetCategory=CTRL_V ;
+	NoChaseCategory=CTRL_V ;
+
+	firestandorders=1;
+	StandingFireOrder=2;
+	mobilestandorders=1;
+	StandingMoveOrder=1;
+	DefaultMissionType=VTOL_standby;
+
+	canattack=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	canguard=1;
+	Canfly=1;
+	ShootMe=1;
+	BankScale=1;
+	BMcode=1;
+	ThreeD=1;
+	ZBuffer=1;
+
+
+	Weapon1=WATERBOMB;
+	wpri_badTargetCategory=CTRL_V;
+	Weapon3=ARMVTOL_MISSILE;
+	wter_badTargetCategory=UNDERWATER;
+
+	altfromsealevel=1;
+	maxwaterdepth=255;
+	amphibious=1;
+
+	Copyright=Copyright 1997 Humongous Entertainment. All rights reserved.;
+
+	}
+
+

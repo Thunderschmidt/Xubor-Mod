@@ -1,0 +1,9 @@
+//CORE "Igniter" Pyro Tank By Wettis
+
+[MENUENTRY1]
+	{
+	UNITMENU=CORAVP;
+	MENU=3;
+	BUTTON=3;
+	UNITNAME=CORIGN;
+	}

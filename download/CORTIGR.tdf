@@ -1,0 +1,9 @@
+//CORE "Tiger" Anti-EMG-Tank
+
+[MENUENTRY1]
+	{
+	UNITMENU=CORVP;
+	MENU=3;
+	BUTTON=1;
+	UNITNAME=CORTIGR;
+	}

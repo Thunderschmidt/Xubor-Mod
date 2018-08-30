@@ -1,0 +1,63 @@
+//CORE "M-515-NavalSeries" High Damage, Large Range Floating Mine
+
+[UNITINFO]
+	{
+	UnitName=CORFMINE5;
+	Version=1.0;
+	Side=CORE;
+	Objectname=CORFMINE5;
+	Designation=COR-HDLR;
+	Name=M515-NS;
+	Description=High Damage, Large Range Flt. Mine;
+	FootprintX=1;
+	FootprintZ=1;
+	BuildCostEnergy=2106;
+	BuildCostMetal=303;
+	MaxDamage=100;
+	MaxWaterDepth=10;
+	MaxSlope=15;
+	EnergyUse=0;
+	BuildTime=650;
+	WorkerTime=0;
+	BMcode=0;
+	Builder=0;
+	ThreeD=1;
+	ZBuffer=1;
+	NoAutoFire=0;
+	SightDistance=60;
+	RadarDistance=0;
+	SoundCategory=MINE4;
+	EnergyStorage=0;
+	MetalStorage=0;
+	ExplodeAs=CORMINE5;
+	SelfDestructAs=CORMINE6;
+	Category=CORE MINE WEAPON LEVEL2 NOTAIR NOTSUB KAMIKAZE CTRL_M;
+	TEDClass=SPECIAL;
+	Copyright=Copyright 1997 Humongous Entertainment. All rights reserved.;
+	YardMap=w;
+	GermanName=M515-NS;
+	GermanDescription=groﬂer Schaden, groﬂe Reichweite;
+	FrenchName=M515-NS;
+	Frenchdescription=High Damage, Large Range Flt. Mine;
+	SpanishName=M515-NS;
+	SpanishDescription=High Damage, Large Range Flt. Mine;
+	ItalianName=M515-NS;
+	ItalianDescription=High Damage, Large Range Flt. Mine;
+	UnitNumber=664;
+	firestandorders=1;
+	StandingFireOrder=2;
+	canmove=0;
+	canpatrol=0;
+	canstop=0;
+	canguard=0;
+	DefaultMissionType=Standby_Mine;
+	canattack=0;
+	downloadable=1;
+	kamikaze=1;
+	selfdestructcountdown=1;
+	CloakCost=3;
+	init_cloaked=1;
+	mincloakdistance=8;
+	MinWaterDepth=0;
+	WaterLine=1;
+	}

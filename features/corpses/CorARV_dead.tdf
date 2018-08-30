@@ -1,0 +1,41 @@
+//Core ARV Assist & Repair Vehicle by Xubor and Warlord_285
+
+[CorARV_dead]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=core_corpses;
+	object=CorARV_dead;
+	featuredead=CorARV_heap;
+	footprintx=2;
+	footprintz=2;
+	height=40;
+	blocking=1;
+	hitdensity=100;
+	metal=552;
+	damage=768;
+	reclaimable=1;
+	featurereclamate=smudge01;
+        seqnamereclamate=tree1reclamate;
+	}
+
+[CorARV_heap]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=heaps;
+	object=2x2b;
+	footprintx=2;
+	footprintz=2;
+	height=4;
+	blocking=0;
+	hitdensity=100;
+	metal=276;
+	damage=768;
+	reclaimable=1;
+	featurereclamate=smudge01;
+	seqnamereclamate=tree1reclamate;
+	}
+
+
+

@@ -1,0 +1,40 @@
+//CORE "Fortification Gate" Fortification Gate V/H
+
+[corfortgh_dead]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=core_corpses;
+	object=corfortgh_dead;
+	footprintx=10;
+	footprintz=2;
+	height=20;
+	blocking=1;
+	hitdensity=100;
+	metal=234;
+	damage=810;
+	reclaimable=1;
+	featurereclamate=smudge01;
+        seqnamereclamate=tree1reclamate;
+	}
+
+[corfortgv_dead]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=core_corpses;
+	object=corfortgv_dead;
+	footprintx=2;
+	footprintz=10;
+	height=20;
+	blocking=1;
+	hitdensity=100;
+	metal=234;
+	damage=810;
+	reclaimable=1;
+	featurereclamate=smudge01;
+        seqnamereclamate=tree1reclamate;
+	}
+
+
+

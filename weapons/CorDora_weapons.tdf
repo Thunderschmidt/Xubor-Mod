@@ -1,0 +1,43 @@
+[DORA_WEAPON]
+	{
+	ID=129;
+	name=Dora Long Range Weapon;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	color=3;
+	range=10240;
+	reloadtime=12;
+	weaponvelocity=1400;
+	energypershot=4000;
+	areaofeffect=170;
+
+	soundstart=DORAFIRE;
+	soundhit=DORAHIT;
+	soundwater=splshbig;
+
+	firestarter=50;
+	accuracy=480;
+	aimrate=2500;
+	tolerance=300;
+//	holdtime=1;
+
+	explosiongaf=DoraBoom;
+	explosionart=DoraBoom;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2oboom2;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplashlg;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=3600;
+		armcom=1800;
+		corccom=1800;
+
+		}
+	}

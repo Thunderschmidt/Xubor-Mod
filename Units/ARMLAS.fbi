@@ -1,0 +1,101 @@
+// Arm "Laserboy" Shielded Defence Kbot
+[UNITINFO]
+	{
+	UnitNumber=19381;
+	UnitName=ARMLAS;
+	Side=ARM;
+	Designation=ARM-LAS;
+	Version=1;
+	Copyright=Copyright 1997 Humongous Entertainment. All rights reserved.;
+	Category=ARM KBOT LEVEL2 WEAPON NOTSUB ;
+	TEDClass=KBOT;
+
+                ai_weight=weight ARMLAS 1.5;
+	ai_limit=limit ARMHEAD 12;
+
+	Name=Laserboy;
+	Description=Shielded Defence Kbot;
+	 GermanName=Laserboy;
+	GermanDescription=Verteidigungs-Kbot;
+	 FrenchName=Laserboy;
+	Frenchdescription=Shielded Defence Kbot;
+	 SpanishName=Laserboy;
+	SpanishDescription=Shielded Defence Kbot;
+	 ItalianName=Laserboy;
+	ItalianDescription=Shielded Defence Kbot;
+
+	BuildCostEnergy=11950;
+	BuildCostMetal=593;
+	BuildTime=19381;
+
+	Weapon1=BOY_LASER;
+	wpri_badTargetCategory=VTOL;
+	Weapon2=BOY_ROCKET;
+	wsec_badTargetCategory=NOTAIR;
+
+	BadTargetCategory=VTOL;
+	NoChaseCategory=VTOL;
+
+	MaxVelocity=1.25;
+	BrakeRate=0.16;
+	Acceleration=0.08;
+	TurnRate=820;
+	SteeringMode=2;
+	maneuverleashlength=320;
+
+	EnergyMake=2;
+	MetalMake=0;
+	EnergyStorage=0;
+	MetalStorage=0;
+	EnergyUse=12;
+
+	canattack=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	canguard=1;
+
+	Upright=1;
+	FootprintX=2;
+	FootprintZ=2;
+	MovementClass=TANKSH2;
+
+	MaxDamage=1150;
+	DamageModifier=0.05; // Shield holds off  95% of the damage
+	HealTime=27;	   
+
+	MaxWaterDepth=12;
+	MaxSlope=17;
+
+	SightDistance=280;
+	RadarDistance=0;
+
+	firestandorders=1;
+	StandingFireOrder=2;
+	mobilestandorders=1;
+	StandingMoveOrder=1;
+
+	ExplodeAs=BIG_UNITEX;
+	SelfDestructAs=BIG_UNIT;
+
+	Corpse=armlas_dead;
+	Objectname=ARMLAS;
+
+	SoundCategory=ARM_KBOT;
+
+	DefaultMissionType=Standby;
+	WorkerTime=0;
+	BMcode=1;
+	Builder=0;
+	ThreeD=1;
+	ZBuffer=1;
+	NoAutoFire=0;
+	ShootMe=1;
+			//                           comments and congrats go to martinhuedepohl@hotmail.com
+
+
+
+
+
+
+	}

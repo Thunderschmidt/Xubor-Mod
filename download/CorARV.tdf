@@ -1,0 +1,11 @@
+//Core ARV Assist & Repair Vehicle by Xubor and Warlord_285
+
+[MENUENTRY1]
+	{
+	UNITMENU=CORAVP;
+	MENU=3;
+	BUTTON=2;
+	UNITNAME=CORARV;
+	}
+
+

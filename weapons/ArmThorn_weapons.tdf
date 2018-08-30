@@ -1,0 +1,57 @@
+//Arm "Thornado" Bomber Seaplane by Xubor
+
+[WATERBOMB]
+	{
+	ID=17; // Original ID was 210 - Edited on 20.01.2005 20:08:54 using TA Conflict Crusher - http://www.r1ch.net/tacc/
+	name=Water Bomb;
+	rendertype=1;
+	ballistic=1;
+	turret=0;
+
+	model=waterbomb;
+	range=470;
+	reloadtime=8.5;
+	weapontimer=1.54;
+
+	burst=5;
+	burstrate=0.30;
+
+
+	turnrate=1000;
+	guidance=1;
+	selfprop=1;
+	tracks=1;
+
+	soundtrigger=1;
+	weaponvelocity=150;
+	startvelocity=150;
+	weaponacceleration=0;	
+
+	areaofeffect=140;
+	edgeeffectiveness=0.5;
+	soundstart=bombrel;
+	soundhit=xplomed2;
+	soundwater=EXMINE4;
+	waterweapon=1;
+	burnblow=1;
+
+	tolerance=6000;
+
+	explosiongaf=fx;
+	explosionart=explode2;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2oboom2;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplashsm;
+
+	metal=50;
+	energy=250;
+
+	[DAMAGE]
+		{
+		default=190
+;
+		}
+	}

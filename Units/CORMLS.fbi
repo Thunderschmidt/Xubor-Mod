@@ -1,0 +1,64 @@
+//CORE "Limiter" Mine Laying Ship
+
+[UNITINFO]
+	{
+	UnitName=CORMLS;
+	Version=1.0;
+	Side=CORE;
+	Objectname=CORMLS;
+	Designation=COR-MLS;
+	Name=Limiter;
+	Description=Mine Laying Ship;
+	FootprintX=4;
+	FootprintZ=4;
+	BuildCostEnergy=1902;
+	BuildCostMetal=241;
+	MaxDamage=1438;
+	EnergyUse=0.5;
+	BuildTime=3352;
+	WorkerTime=115;
+	BMcode=1;
+	Builder=1;
+	ThreeD=1;
+	ZBuffer=1;
+	NoAutoFire=0;
+	SightDistance=200;
+	RadarDistance=0;
+	SoundCategory=CORE_CSHIP;
+	EnergyStorage=0;
+	MetalStorage=0;
+	ExplodeAs=SMALL_UNITEX;
+	SelfDestructAs=SMALL_UNIT;
+	Category=CORE SHIP MINELAYER NOWEAPON NOTAIR NOTSUB CTRL_B;
+	TEDClass=SHIP;
+	Copyright=Copyright 1997 Humongous Entertainment. All rights reserved.;
+	Corpse=cormls_dead;
+	GermanName=Limiter;
+	GermanDescription=Minenleger;
+	FrenchName=Limiter;
+	Frenchdescription=Mine Laying Ship;
+	UnitNumber=622;
+	mobilestandorders=1;
+	StandingMoveOrder=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	canguard=1;
+	MaxVelocity=1.54;
+	BrakeRate=0.03;
+	Acceleration=0.0073;
+	TurnRate=139;
+	SteeringMode=1;
+	ShootMe=1;
+	Builddistance=65;
+	CanReclamate=1;
+	EnergyMake=0.5;
+	DefaultMissionType=Standby;
+	maneuverleashlength=640;
+	MovementClass=BOATS4;
+	MinWaterDepth=15;
+	Floater=1;
+	SonarDistance=0;
+	ai_weight=weight CORMLS 0;
+	ai_limit=limit CORMLS 0;
+	}

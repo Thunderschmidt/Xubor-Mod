@@ -1,0 +1,17 @@
+[cortat_dead]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=core_corpses;
+	object=cortat_dead;
+	footprintx=4;
+	footprintz=4;
+	height=15;
+	blocking=1;
+	hitdensity=100;
+	metal=295;
+	damage=227;
+	reclaimable=1;
+	featurereclamate=smudge01;
+        seqnamereclamate=tree1reclamate;
+	}

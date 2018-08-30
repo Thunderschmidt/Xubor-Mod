@@ -1,0 +1,34 @@
+// Arm Drago's Tooth Mine by M.Hüdepohl
+
+[DTMPOPUP]
+	{
+	ID=233;
+	name=DTM Popup;
+	rendertype=4;
+	LineOfSight=1;
+	turret=1;
+	color=3;
+
+	range=80;
+	reloadtime=1;
+	weaponvelocity=295;
+	areaofeffect=84;
+	soundstart=debris5;
+	soundhit=debris5;
+
+	explosiongaf=DTManim;
+	explosionart=DTM;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=5;
+		}
+	}
